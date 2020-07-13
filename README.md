@@ -6,9 +6,7 @@ Originally released in 2012, `lodash` is a light weight JS library made up of ut
 
 Nitro imports functions from `lodash` in over 500 separate places (and counting). Listed below are commonly used `lodash` functions in Nitro, linked to `lodash`'s documentation.
 
-Lodash docs are clear and concise. Each function has an **interactive** set of examples attached to it. For each of these functions, read the documentation and play with the examples.
-
-You are encouraged to use `lodash` in the upcoming JS Project.
+Lodash docs are clear and concise. Each function has an **interactive** set of examples attached to it. For each of these commonly used functions, read the documentation and play with the examples.
 
 - [map](https://lodash.com/docs/4.17.15#map)
 - [get](https://lodash.com/docs/4.17.15#get) (like Ruby's `dig`)
@@ -28,3 +26,22 @@ You are encouraged to use `lodash` in the upcoming JS Project.
 - [isEmpty](https://lodash.com/docs/4.17.15#isEmpty)
 - [isEqual](https://lodash.com/docs/4.17.15#isEqual) (like Ruby's `==`)
 - [isUndefined](https://lodash.com/docs/4.17.15#isUndefined)
+
+## When to use `lodash`
+
+A lot of `lodash` became obsolete with the release of ES6 in 2015. Since Nitro has been around since 2009, before Javascript included functions like `map` and `filter`, its codebase is filled with both `lodash`'s utility functions and their pure JS equivalents.
+
+Q: Why would Nitro change to pure JS functions if it is was already using `lodash`?
+
+A: Performance/speed
+
+Check out the resources below to find benchmarks on how much faster pure JS is compared to `lodash`. Also check out the last resource link to view some side by side comparisons on how to use pure JS functions instead of `lodash`.
+
+With all of that said, there are still some particularly useful `lodash` functions to reach for, such as `get` and `isEmpty`. Feel free to include `lodash` in your JS Project and use its functions that do not yet have JS equivalents.
+
+
+### Resources
+
+- [Why you shouldn't use lodash anymore and use pure Javascript instead](https://codeburst.io/why-you-shouldnt-use-lodash-anymore-and-use-pure-javascript-instead-c397df51a66)
+- [Pure Javascript Functions as a Replacement for Lodash](https://blog.bitsrc.io/you-dont-need-lodash-or-how-i-started-loving-javascript-functions-3f45791fa6cd)
+- [10 Lodash Features You Can Replace with ES6](https://www.sitepoint.com/lodash-features-replace-es6/)
