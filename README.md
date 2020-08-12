@@ -37,7 +37,7 @@ A: Performance/speed
 
 Check out the resources below to find benchmarks on how much faster pure JS is compared to `lodash`. Also check out the last resource link to view some side by side comparisons on how to use pure JS functions instead of `lodash`.
 
-With all of that said, there are still some particularly useful `lodash` functions to reach for, such as `get` and `isEmpty`. Feel free to include `lodash` in your JS Project and use its functions that do not yet have JS equivalents.
+With all of that said, there are still some particularly useful `lodash` functions to reach for, such as `get` and `isEmpty`. Feel free to include `lodash` in your Final Project and use its functions that do not yet have JS equivalents.
 
 
 ### Resources
